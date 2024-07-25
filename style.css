@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.first-section {
+    line-height: 1.6;
+}
+
+.first-content {
+    padding: 6rem;
+}
+
+.first-image img {
+    width: 100%;
+    height: auto;
+}
+
+.about-content {
+    padding: 4.5rem;
+}
+
+.genetic-content {
+    padding: 5rem;
+}
+
+.case_1 {
+    padding: 2rem;
+}
+
+.card {
+    width: 100%;
+    height: 75%;
+    margin: 3rem 0;
+}
+
+.insta_section {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.insta {
+    height: 15.3rem;
+    width: 15.3rem;
+}
+
+@media (max-width: 768px) {
+    .first-content,
+    .about-content,
+    .genetic-content,
+    .case_1 {
+        padding: 1rem;
+    }
+
+    .case_study {
+        margin-left: 1rem;
+    }
+
+    .insta {
+        height: auto;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .insta_section {
+        margin-left: 3rem;
+        margin-right: 0rem;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .first-content,
+    .genetic-content,
+    .card {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .insta {
+        display: none;
+    }
+
+    .insta:nth-child(-n+4) {
+        display: block;
+    }
+}
+
